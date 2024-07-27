@@ -1,14 +1,24 @@
-import { Home } from "lucide-react";
 import Index from "./pages/Index.jsx";
+import Magija from "./pages/Magija.jsx";
+import Porucivanje from "./pages/Porucivanje.jsx";
 
 /**
  * Central place for defining the navigation items. Used for navigation components and routing.
  */
 export const navItems = [
   {
-    title: "Home",
+    title: "Makalo",
     to: "/",
-    icon: <Home className="h-4 w-4" />,
     page: <Index />,
+  },
+  {
+    title: "Magija",
+    to: "/magija",
+    page: <Magija />,
+  },
+  {
+    title: "Porucivanje",
+    to: "/porucivanje",
+    page: <Porucivanje />,
   },
 ];

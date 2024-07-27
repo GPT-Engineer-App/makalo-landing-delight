@@ -64,6 +64,29 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Poručivanje Section */}
+      <section className="py-16 px-4 md:px-8 bg-white">
+        <div className="container mx-auto">
+          <div className="flex flex-col md:flex-row items-center gap-8">
+            <div className="w-full md:w-1/2">
+              <h2 className="text-3xl font-bold mb-4">Poručivanje</h2>
+              <p className="text-lg mb-6">
+                Želite li da uživate u neodoljivom ukusu Makala? Poručivanje je jednostavno i brzo! 
+                Samo nekoliko klikova vas deli od toga da vam Makalo stigne na kućnu adresu. 
+                Bilo da naručujete za sebe ili kao poklon za voljene, Makalo će doneti radost 
+                u svaki dom. Ne propustite priliku da isprobate najbolji namaz na tržištu!
+              </p>
+              <Button className="bg-orange-500 text-white hover:bg-orange-600">
+                Poruči odmah
+              </Button>
+            </div>
+            <div className="w-full md:w-1/2">
+              <img src="/makalo-order.jpg" alt="Poručivanje Makala" className="w-full h-auto rounded-lg shadow-lg" />
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Footer */}
       <footer className="bg-gray-800 text-white py-8 px-4 md:px-8">
         <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">

@@ -17,6 +17,29 @@ const Index = () => {
         </div>
       </section>
 
+      {/* New Section Below Hero */}
+      <section className="py-16 px-4 md:px-8 bg-white">
+        <div className="container mx-auto">
+          <div className="flex flex-col md:flex-row items-center gap-8">
+            <div className="w-full md:w-1/2">
+              <img src="/makalo-jar.jpg" alt="Makalo jar" className="w-full h-auto rounded-lg shadow-lg" />
+            </div>
+            <div className="w-full md:w-1/2">
+              <h2 className="text-3xl font-bold mb-4">Otkrij Makalo</h2>
+              <p className="text-lg mb-6">
+                Makalo je više od običnog namaza - to je iskustvo za vaša čula. Napravljen od pažljivo odabranih sastojaka, 
+                Makalo donosi savršenu ravnotežu ukusa i teksture koja će oduševiti i najzahtevnije gurmane. 
+                Bilo da ga koristite za doručak, užinu ili kao dodatak vašim omiljenim jelima, Makalo će 
+                svaki zalogaj pretvoriti u pravu poslasticu.
+              </p>
+              <Button className="bg-orange-500 text-white hover:bg-orange-600">
+                Isprobaj Makalo
+              </Button>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Benefits Section */}
       <section className="py-16 px-4 md:px-8 bg-gray-50">
         <div className="container mx-auto">

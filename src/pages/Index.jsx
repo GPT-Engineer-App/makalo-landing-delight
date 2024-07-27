@@ -6,10 +6,11 @@ const Index = () => {
   return (
     <div className="flex flex-col min-h-screen">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-yellow-400 to-orange-500 text-white py-20 px-4 md:px-8">
-        <div className="container mx-auto text-center">
-          <h1 className="text-4xl md:text-6xl font-bold mb-4">Makalo</h1>
-          <p className="text-xl md:text-2xl mb-8">Najbolji namaz ikada</p>
+      <section className="relative bg-cover bg-center text-white py-20 px-4 md:px-8" style={{ backgroundImage: 'url("/hero-background.jpg")' }}>
+        <div className="absolute inset-0 bg-black bg-opacity-50"></div>
+        <div className="container mx-auto text-center relative z-10">
+          <h1 className="text-4xl md:text-6xl font-bold mb-4 text-shadow">Makalo</h1>
+          <p className="text-xl md:text-2xl mb-8 text-shadow">Najbolji namaz ikada</p>
           <Button size="lg" className="bg-white text-orange-500 hover:bg-gray-100">
             Saznaj više
           </Button>
